@@ -1,0 +1,36 @@
+body{
+    padding-top: 60px;
+}
+
+.pointer-cursor{
+    cursor: pointer
+}
+
+.show{
+    display: block;
+}
+
+.hide{
+    display: none
+}
+
+.comments_container{
+    margin-top: 27px;
+    margin-bottom: 0;
+}
+
+.comments_container h3{
+    margin: 0 0 25px 0
+}
+.comment, .story{position: relative}
+div.comment:hover > #span, div.story:hover > #span {
+    opacity: 1;
+}
+
+div.comment > #span, div.story > #span {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    opacity: 0;
+    transition: opacity .25s linear;
+}
